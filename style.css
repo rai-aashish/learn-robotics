@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.7rem;
+  color: white;
+  max-width: 100rem;
+  margin: auto;
+  background-color: rgb(13, 13, 13);
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.comming-soon {
+  text-transform: uppercase;
+}
+.download-btn {
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: green;
+  color: white;
+  display: inline-block;
+}
+
+.download-promotion .app-img {
+  margin-bottom: 2rem;
+  overflow: clip;
+  width: min(100%, 60rem);
+  aspect-ratio: 16/9;
+  border: 1px solid rgba(255, 217, 0, 0.446);
+  border-radius: 10px;
+}
+.download-promotion .app-img:hover img {
+  transform: scale(1.2);
+}
+.app-img img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
